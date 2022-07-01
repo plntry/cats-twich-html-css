@@ -1,0 +1,12 @@
+:root {
+    --gray: #b9b9b9;
+    --lightGray: #d8d8d8;
+    --lightGrayMain: #e8e8e8;
+    --darkGray: #767676;
+    --orange: #f0a73e;
+    --red: #fa0000;
+    --blue: #009dff;
+    --searchBorderColor: #8794f0;
+    --mainFontFamily: 'Courier New', Courier, monospace;
+    --mainFont: monospace;
+}
