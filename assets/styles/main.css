@@ -13,12 +13,11 @@
 
 /*Categories panel*/
 .categories {
-    flex: 0 0 auto;
     display: grid;
     grid-template-columns: repeat(16, auto);
-    -moz-column-gap: 30px;
     column-gap: 30px;
-    overflow-x: auto;
+    overflow-x: hidden;
+    margin: 6px;
 }
 
 .category-item {
@@ -37,16 +36,14 @@
     margin-bottom: 5px;
 }
 
+.categories:hover {
+    overflow-x:auto;
+}
+
 .categories::-webkit-scrollbar {
     height: 7px;
 }
   
-
-.categories::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 2px grey; 
-    border-radius: 5px;
-}
-   
 .categories::-webkit-scrollbar-thumb {
     background: var(--lightGray); 
     border-radius: 10px;
