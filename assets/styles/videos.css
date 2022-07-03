@@ -1,5 +1,5 @@
 .videos {
-  margin-top: 250px;
+  margin-top: 0;
   flex: 1 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -9,6 +9,7 @@
 
 .video-block {
   position: relative;
+  height: 70%;
 }
 
 .video-block_img {
@@ -79,7 +80,7 @@
 
 .video-info_text {
   flex-grow: 1;
-  margin: 0 0 0 25px;
+  margin: 0 0 0 20px;
   font-family: var(--mainFont);
   width: 100px;
 }
