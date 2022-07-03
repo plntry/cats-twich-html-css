@@ -21,11 +21,24 @@
 
 .streamers {
     flex-grow: 1;
-    overflow-y: auto;
+    overflow-y: hidden;
+}
+
+.streamers:hover {
+    overflow-y:auto;
 }
 
 .streamers::-webkit-scrollbar {
-    display: none;
+    width: 7px;
+}
+  
+.streamers::-webkit-scrollbar-thumb {
+    background: var(--lightGray); 
+    border-radius: 10px;
+}
+  
+.streamers::-webkit-scrollbar-thumb:hover {
+    background: var(--darkGray); 
 }
 
 .streamer-info {
