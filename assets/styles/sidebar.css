@@ -37,8 +37,8 @@
 
 .image-avatar {
     display: block;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     background-color: white;
     border-radius: 50%;
 }
@@ -132,8 +132,8 @@
     .sidebar {
       display: flex;
       flex-direction: column;
-      width: 66px;
-      min-width: 66px;
+      width: 62px;
+      min-width: 62px;
       background-color: var(--lightGrayMain);
       overflow: hidden;
     }
