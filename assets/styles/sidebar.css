@@ -7,7 +7,8 @@
 .sidebar {
     display: flex;
     height: calc(100vh - 65px);
-    position: sticky;
+    position: fixed;
+    z-index: 1;
     top: 0px;
     flex-direction: column;
     width: 240px;
@@ -15,6 +16,7 @@
     background-color: var(--lightGrayMain);
     font-family: var(--mainFont);
     font-size: 17px;
+    margin: 65px 0 0 0px;
 }
 
 .streamers {
@@ -87,6 +89,7 @@
 }
 
 .information {
+    position: sticky;
     border-top: 1px solid white;
     padding: 20px;
     background-color: var(--lightGray);
@@ -95,6 +98,7 @@
 }
 
 .info-text {
+    position: sticky;
     margin: 20px;
     line-height: 24px;
 }
@@ -134,6 +138,7 @@
       flex-direction: column;
       width: 62px;
       min-width: 62px;
+      min-height: 100%;
       background-color: var(--lightGrayMain);
       overflow: hidden;
     }
