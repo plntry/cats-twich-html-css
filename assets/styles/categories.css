@@ -23,7 +23,7 @@
 .category-item {
     box-sizing: border-box;
     height: 32px;
-    background-color: var(--lightGrayMain);
+    background-color: var(--lightGreenMain);
     font-family: var(--mainFont);
     font-size: 17px;
     display: flex;
@@ -45,20 +45,17 @@
 }
   
 .categories::-webkit-scrollbar-thumb {
-    background: var(--lightGray); 
+    background: var(--green); 
     border-radius: 10px;
-}
-  
-.categories::-webkit-scrollbar-thumb:hover {
-    background: var(--darkGray); 
 }
 
 .category-item:hover {
-    background-color: var(--lightGray);
+    background-color: var(--green);
+    color: white;
 }
 
 .category-item:nth-of-type(1) {
-    background-color: var(--orange);
+    background-color: var(--green);
     color: white;
 }
 
